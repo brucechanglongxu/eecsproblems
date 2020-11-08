@@ -1,6 +1,6 @@
 # Printing the binary representation of a real number passed in as a double 
 
-String printBinary(double num) {
+string printBinary(double num) {
   if (num >= 1 || num <= 0) {
     return "ERROR";
    }
