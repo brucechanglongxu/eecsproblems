@@ -1,5 +1,4 @@
 ## Dynamic Programming approach to solving the Knapsack Problem ##
-
 #include <iostream>
 using namespace std;
 int max(int x, int y) {
