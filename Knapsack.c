@@ -1,4 +1,6 @@
 ## Dynamic Programming approach to solving the Knapsack Problem ##
+## Context: The Knapsack Problem is an NP hard problem that is embedded in many real life phenomenona. One example is the concept of vickrey auctions, where bidders submit there bid values without knowledge of the bids of the other people in the auction, try to find the connection! ##
+
 #include <iostream>
 using namespace std;
 int max(int x, int y) {
