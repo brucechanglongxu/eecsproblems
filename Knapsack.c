@@ -1,10 +1,12 @@
-# A solution to the knapsack problem with dynamic programming
+## Dynamic Programming approach to solving the Knapsack Problem ##
 
 #include <iostream>
 using namespace std;
 int max(int x, int y) {
    return (x > y) ? x : y;
 }
+
+## As an exercise, try to think about what W, w[], v[] and n should represent ##
 int knapSack(int W, int w[], int v[], int n) {
    int i, wt;
    int K[n + 1][W + 1];
@@ -19,18 +21,4 @@ int knapSack(int W, int w[], int v[], int n) {
       }
    }
    return K[n][W];
-}
-
-int main() {
-   int n, W;
-   cin >> n;
-   int v[n], w[n];
-   for (int i = 0; i < n; i++) {
-      cout << "Enter value and weight for item " << i << ":";
-      cin >> v[i];
-      cin >> w[i];
-   }
-   cin >> W;
-   cout << knapSack(W, w, v, n);
-   return 0;
 }
