@@ -1,4 +1,4 @@
-# Stretch Problems in Electrical Engineering and Computer Science
+# Gems in EE/CS
 
 This repository is a personal and pedagogical collection of stretch problems in electrical engineering, computer science, and algorithmic problem solving. It features elegant coding puzzles, theoretical challenges, and systems-level curiosities that go beyond standard textbook exercises. Many of these problems were encountered during research, interviews, or late-night explorations, and they have been selected not just for their difficulty, but for the insight they offer into the deeper structure of computation and engineering.
 
